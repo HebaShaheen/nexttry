@@ -37,5 +37,5 @@ if (program.save) {
   saveNames(program.times, program.nameType)
 } else {
   // always logs the generated names
-  logNames(program.times, program.nameType)
+  logNames(heroku logs --tail)
 }
